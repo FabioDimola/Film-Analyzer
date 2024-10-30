@@ -42,12 +42,15 @@ The dataset consists of movie information, including genres, release dates, rati
 
 ## Example Outputs
 
-The script produces plots and statistics like:
+The script generates several CSV files that contain sorted movie information in descending order of rating. Each file includes details such as duration, genre, and title. The output files are:
 
-- **Rating Distributions**: Visualize rating distributions for each genre.
-- **Release Date Trends**: Track changes in genre popularity over time.
-- **Genre-Specific Insights**: Discover trends unique to each genre (e.g., average rating, average runtime).
+- `action_final.csv`: Contains top-rated action movies with information on duration, genre, and title.
+- `animation_final.csv`: Contains top-rated animation movies with relevant details.
+- `comedy_final.csv`: Contains top-rated comedy movies.
+- `Romance_Comedy_final.csv`: Contains top-rated romance and comedy movies.
+- `Scifi_final.csv`: Contains top-rated science fiction movies.
 
+Each file is generated in the project directory and can be loaded for further analysis or visualization.
 ## Future Improvements
 
 - Add more genres and metadata for richer analysis.
