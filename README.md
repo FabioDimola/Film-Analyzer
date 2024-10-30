@@ -25,14 +25,6 @@ The dataset consists of movie information, including genres, release dates, rati
 - **numpy**: For numerical operations
 - **matplotlib**: For data visualization
 
-## Usage
-
-1. Ensure that your dataset (e.g., `movies.csv`) is in the project directory.
-2. Run the analysis script:
-    ```bash
-    python analyze_movies.py
-    ```
-3. The script will generate visualizations and print summary statistics to help you understand genre-specific movie trends.
 
 ## Project Structure
 
@@ -56,9 +48,7 @@ Each file is generated in the project directory and can be loaded for further an
 - Implement a machine learning model to classify movies by genre based on metadata.
 - Experiment with other visualization libraries like `seaborn` or `plotly`.
 
-## Contributing
 
-Feel free to submit pull requests if you’d like to improve the project or add new features. Please create an issue for any major changes you wish to propose.
 
 ---
 
