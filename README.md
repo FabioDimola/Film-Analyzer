@@ -36,8 +36,7 @@ The dataset consists of movie information, including genres, release dates, rati
 
 ## Project Structure
 
-- `analyze_movies.py`: Main script that contains data loading, processing, analysis, and visualization steps.
-- `requirements.txt`: List of required Python packages.
+- `film_finder.ipynb`: Main script that contains data loading, processing, analysis, and visualization steps.
 - `README.md`: Project documentation.
 
 ## Example Outputs
